@@ -6,3 +6,4 @@ Method swizzling is the process of changing the implementation of an existing se
 For example, let's say we wanted to track how many times each view controller is presented to a user in an iOS app:
 
 Each view controller could add tracking code to its own implementation of viewDidAppear:, but that would make for a ton of duplicated boilerplate code. Subclassing would be another possibility, but it would require subclassing UIViewController, UITableViewController, UINavigationController, and every other view controller class—an approach that would also suffer from code duplication.
+Read it from my blog : http://gauravds.blogspot.in/2015/05/oc-swizzling-category-class-and.html
